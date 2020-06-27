@@ -8,10 +8,19 @@
   &:last-of-type {
     margin-right: 0;
   }
+
+  &:active {
+    transform: translateY(2px);
+  }
 }
 
 .btn-outline {
   background: transparent;
   color: $shimmering-blush;
   border: 1px solid $shimmering-blush;
+
+  &:active, 
+  &:hover {
+    background: rgba($color: $shimmering-blush, $alpha: 0.3);
+  }
 }
