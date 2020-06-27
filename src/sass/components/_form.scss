@@ -5,15 +5,24 @@
   align-items: center;
   height: 60%;
   width: 100%;
-  padding: 0 15%;
+  padding: 0 18%;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .form-group {
   display: block;
   position: relative;
   width: 100%;
+  margin-bottom: 1.2rem;
 
   .form-label {
+    font-size: 0.9rem;
     position: absolute;
     top: 6px;
     left: 3px;
