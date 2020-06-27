@@ -55,3 +55,24 @@
     color: $shimmering-blush;
   }
 }
+
+@media (max-width: 600px) {
+  .card__login {
+    min-width: 0;
+    min-height: 0;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__illustration {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+  }
+  
+  .card__form {
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+  }
+}
