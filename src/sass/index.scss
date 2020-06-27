@@ -13,3 +13,18 @@ html {
   font-weight: 400;
   font-size: 90%;
 }
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to top right,
+    $space-cadet,
+    $english-violet,
+    $catawba,
+    $middle-red-purple,
+    $bittersweet-shimmer
+  );
+}
