@@ -1,0 +1,17 @@
+.btn {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 2px;
+  margin-right: 15px;
+  cursor: pointer;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  color: $shimmering-blush;
+  border: 1px solid $shimmering-blush;
+}
