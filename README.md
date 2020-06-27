@@ -1,6 +1,4 @@
-# Sass-Typescript Boilerplate
-WCC Front Challenge S6
-
+# WCC Front Challenge S6
 Martian Login Form
 
 ## Install
